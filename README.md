@@ -17,14 +17,14 @@ Poke API Docs - https://pokeapi.co
 4. research project + gather clearity of concept
 5. Fetch both APIs.. Make sure APIs work
 6. Wireframe with Figma
-7. components - input search, button, giphy graphic container, header+footer
-8. 
+7. components - input search, button, giphy graphic container, header+footer,sidebar
+8. pages - Contact, Home,Dex and index
 
 TESTING IN THE APP.JS
 
 ## Utilized a method to test the fetch request of the APIs in Data.js
 
-<!-- export default function App(){
+export default function App(){
  await function for testing the buttons that fetch data.. you can use useEffect 
    async function test(){
      let pokeResult = await pokeData()
@@ -43,10 +43,10 @@ TESTING IN THE APP.JS
     <button onClick={test2}>Giphy Search</button> 
     </>
   );
-  } -->
+  }
 
   ## Things I hope to improve 
   - Cleaner code
   - Wireframe in Figma
   - Use of Giphy API to get giphs for pokemon
-  -  
+  - Completing the Pokeindex (index of all pokemon owned by the current trainer)

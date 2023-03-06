@@ -30,7 +30,6 @@ h1 {
 .homepage-hero {
   background-image: url("../public/pokeworld-home-header.jpeg");
 }
-
 .pokescreen-container{
   background-image: url("../public/emptyPokedex.png");
   background-repeat: no-repeat;
@@ -118,7 +117,6 @@ h1{
   top: 70px;
   right: 170px;
 }
-
 .formInput[type=text]:focus {
   border: 3px solid #555;
 }
@@ -135,7 +133,7 @@ textarea {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: aqua;
   resize: none;
 }
 

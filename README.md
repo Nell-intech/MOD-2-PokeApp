@@ -38,7 +38,7 @@ export default function App(){
   RETURN(
     <>
      used with async functions above 
-       <input type="text" placeholder='Search Your Pokemon! =)'/>
+   <input type="text" placeholder='Search Your Pokemon! =)'/>
     <button onClick={test}>Search</button>
     <button onClick={test2}>Giphy Search</button> 
     </>

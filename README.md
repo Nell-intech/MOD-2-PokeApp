@@ -1,12 +1,12 @@
 ## TITLE
-Pokemon Giffy app
+Pokemon Giphy app
 
 ## CONCEPT
 when a user inputs a pokemon it produces a pokemon giphy with the pokemon's strengths and weaknesses. When the the user inputs pokemon name, the input value should be updated in the Giphy API search query to search for a Giphy that matches the current input.
 
 ## APIs
 
-Gify API Docs - https://developers.giphy.com/docs/api/endpoint#trending 
+Giphy API Docs - https://developers.giphy.com/docs/api/endpoint#trending 
 Poke API Docs - https://pokeapi.co 
 
 ## STEPS
@@ -45,8 +45,16 @@ export default function App(){
   );
   }
 
+  ## Bugs and/or difficulties
+  - css containers for pokeinfo and poke giphy
+
   ## Things I hope to improve 
   - Cleaner code
   - Wireframe in Figma
   - Use of Giphy API to get giphs for pokemon
   - Completing the Pokeindex (index of all pokemon owned by the current trainer)
+  - General styling (responsive design and OOP)
+  - Trouble shooting to check if a pokemon has multiple abilities 
+  - adding more to this README
+
+  ** Having the search bar search through both APIs and fetching then having the button produce the Poke info andPoke giphy **

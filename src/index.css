@@ -117,10 +117,10 @@ h1{
   top: 70px;
   right: 170px;
 }
-.formInput[type=text]:focus {
+.formInput:focus {
   border: 3px solid #555;
 }
-.formInput[type=text] {
+.formInput {
   background-color: white;
   background-position: 10px 10px; 
   background-repeat: no-repeat;

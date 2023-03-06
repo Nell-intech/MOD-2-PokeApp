@@ -13,7 +13,7 @@ export default function PokeIndex() {
             <div className="container">
             <IndexSidebar />
             <div className="right">
-            This is my poke index list!
+            This is for the image/giphy of the current pokemon clicked on from the pokeindex
             </div>
             </div>
             <Footer />
